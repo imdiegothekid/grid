@@ -1,0 +1,45 @@
+
+.grid__cell {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 200px;
+    text-align: center;
+    margin: 16px;
+    grid-gap: 8px;
+    
+  }
+
+.grid_one {
+      background-color: blueviolet;
+
+  }
+.grid_two {
+    background-color: tomato;
+}
+
+.grid_three {
+    background-color: blue;
+}
+.grid_four {
+    background-color: green;
+}
+.grid_five {
+    background-color: gold;
+}
+
+
+@media all and (min-width: 600px) {
+    .grid__cell{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .grid__cell{ 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 200px;
+    }
+}
