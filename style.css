@@ -1,4 +1,6 @@
 
+/*GRID CONTAINER*/
+
 .grid__cell {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -6,17 +8,16 @@
     text-align: center;
     margin: 16px;
     grid-gap: 8px;
-    
   }
+
+/*GRID ITEMS*/
 
 .grid_one {
       background-color: blueviolet;
-
   }
 .grid_two {
     background-color: tomato;
 }
-
 .grid_three {
     background-color: blue;
 }
@@ -27,6 +28,7 @@
     background-color: gold;
 }
 
+/*MEDIAQUERY*/
 
 @media all and (min-width: 600px) {
     .grid__cell{ 
